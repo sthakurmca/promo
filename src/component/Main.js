@@ -14,7 +14,6 @@ export default function Main() {
                     return a.sequence - b.sequence;
                 });
                 localStorage.setItem("data", JSON.stringify(data));
-                //setList(data);
                 setList(data);
             }).catch((err) => {
                 setList([]);
