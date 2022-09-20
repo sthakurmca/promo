@@ -76,8 +76,8 @@ export default function Main() {
                                 <h5 className="card-title">{res.name}</h5>
                                 <p className="card-text">{res.description}</p>
                                 <div>
-                                    <button type="button" className="btn btn-outline-secondary m-2">Terms & Conditions</button>
-                                    <button type="button" className="btn btn-secondary m-2 px-5" >Join Now</button>
+                                    <button type="button" className="col-4 btn btn-outline-secondary m-2 px-0">Terms & Conditions</button>
+                                    <button type="button" className="col-4 btn btn-secondary m-2 px-4" >Join Now</button>
                                 </div>
                             </div>
                         </div>
